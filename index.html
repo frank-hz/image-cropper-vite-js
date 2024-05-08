@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Cropper - Recortar Imagen</title>
+  </head>
+  <body>
+    <header class="header">
+      <a href="" class="logo">
+        <span>Image</span>
+        <span>[Cropp]</span>
+      </a>
+      <nav>
+        <ul class="menu">
+          <li>
+            LOG IN 
+          </li>
+          <li>
+            SETTINGS
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main">
+      <section class="card preview">
+        <div class="card-header">
+          <div class="card-title">Image Preview</div>
+          <div class="card-options">
+            <button id="_btn_upload" class="btn">New Image</button>
+            <button id="_btn_cut" class="btn" style="display: none;">Aply Cut</button>
+          </div>
+        </div>
+        <div  id="_preview" class="card-body">
+          <center>NO DATA</center>
+        </div>
+      </section>
+      <section class="card preview">
+        <div class="card-header">
+          <div class="card-title">Result</div>
+          <div class="card-options">
+            <a id="_btn_download" class="btn" style="display: none;" download="image-cut.png">Download</a>
+          </div>
+        </div>
+        <div id="_result" class="card-body">
+          <center>NO DATA</center>
+        </div>
+      </section>
+    </main>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,19 @@
+{
+  "name": "image-cropper-vite-js",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^5.2.0"
+  },
+  "dependencies": {
+    "@fontsource/poppins": "^5.0.14",
+    "cropperjs": "^1.6.2",
+    "milligram": "^1.4.1"
+  }
+}
