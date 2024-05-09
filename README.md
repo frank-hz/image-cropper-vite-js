@@ -4,6 +4,7 @@
 Recortador de imagen.
 
 ## Contenido
+* [Vista Previa](https://frank-hz.github.io/image-cropper-vite-js/)
 * [Tecnologias](#tecnologias)
 * [Funcionalidad](#funcionalidad)
 * [Setup](#setup)
